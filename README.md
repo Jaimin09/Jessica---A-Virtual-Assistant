@@ -1,9 +1,10 @@
 # Jessica---A-Virtual-Assistant
 A virtual Assistant and Chatting application, Jessica.
-It is Web Based application. We Can talk to Virtual Assistant or give orders to do something. Contains, speech to text.
+It is Web Based application. We Can chat with Virtual Assistant or give orders to do something.
+
+# Some Cool Features:
+Its just like cortona, but have different answering personality which makes her look more human and more woman.
 You can use Jessica, simply downloading these files and following the below steps
-
-
 
 # Files:
 - jessica_model.h5 file contains model with which it is trained.
