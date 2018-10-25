@@ -3,7 +3,7 @@ A Virtual Assistant and Chatting application, Jessica.
 It is Web Based application. We Can chat with her and give orders.
 
 # Some Cool Features:
-Its just like cortona, but have different answering personality which makes her look more human and more woman.
+Its just like cortona, but have different answering personality.
 You can use Jessica, simply downloading these files and following the below steps
 
 # Files:
@@ -19,13 +19,13 @@ Note: predict.html, jquery.js, Mic.png, background.jpg, send-button3.jpg SHOULD 
 - chime.wav and chime_short.wav are two wav files used for better interactivity
 - favicon.ico is favicon for webpage
 
-
+# Some ScreenShots
 ![jess-ss1](https://user-images.githubusercontent.com/37634919/47494172-ade0e780-d86e-11e8-849b-6568756812fd.png)
-
+#
 ![jess-ss4](https://user-images.githubusercontent.com/37634919/47494975-a589ac00-d870-11e8-8a91-cac22fa94a9a.png)
-
+#
 ![jess-ss5](https://user-images.githubusercontent.com/37634919/47494976-a6224280-d870-11e8-859f-8b389596ea47.png)
-
+#
 ![jess-ss6](https://user-images.githubusercontent.com/37634919/47494978-a6224280-d870-11e8-9f6e-d774ea89942c.png)
 
 ![jess-ss3](https://user-images.githubusercontent.com/37634919/47494003-4dea4100-d86e-11e8-84d8-e6af8e54d4a8.png)
