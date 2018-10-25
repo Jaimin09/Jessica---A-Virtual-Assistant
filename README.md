@@ -27,7 +27,7 @@ Note: predict.html, jquery.js, Mic.png, background.jpg, send-button3.jpg SHOULD 
 ![jess-ss5](https://user-images.githubusercontent.com/37634919/47494976-a6224280-d870-11e8-859f-8b389596ea47.png)
 #
 ![jess-ss6](https://user-images.githubusercontent.com/37634919/47494978-a6224280-d870-11e8-9f6e-d774ea89942c.png)
-
+#
 ![jess-ss3](https://user-images.githubusercontent.com/37634919/47494003-4dea4100-d86e-11e8-84d8-e6af8e54d4a8.png)
-
+#
 ![jess-ss2](https://user-images.githubusercontent.com/37634919/47494002-4d51aa80-d86e-11e8-86b0-be0d865b43db.png)
