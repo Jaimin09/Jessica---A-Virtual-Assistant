@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<title>Hi ! I am Jessica</title>
+    <link rel="shortcut icon" href = "favicon.ico">
+    <style>
+        body{
+            background-image: url("background.jpg");
+            background-repeat: no-repeat;
+        }
+        input{
+            font-size: 25px;
+            padding: 5px;
+            font-family: monospace;
+            width: 75%;
+            border-radius: 10px;
+            position: fixed;
+            bottom: 150px;
+            left: 80px;
+        }
+        #send-button{
+            height: 50px;
+            width: 100px;
+            background-image: url("send-button3.png");
+            position: fixed;
+            bottom: 145px;
+            right: 130px;
+            border-radius: 10px;
+        }
+        #record-button{
+            height: 50px;
+            width: 50px;
+            background-image: url("MiC.png");
+            position: fixed;
+            bottom: 145px;
+            right: 70px;
+            border-radius: 50%;
+        }
+        #print_mymsg_id{
+            margin-left: 110px;
+            position: fixed;
+            top: 80px;
+            font-size: 25px;
+            font-family: monospace;
+            max-width: 80%;
+        }
+        #print_greeting_id{
+            margin-left: 80px;
+            position: fixed;
+            top: 220px;
+            font-size: 25px;
+            font-family: monospace;
+            max-width: 80%;
+        }
+        
+        
+    </style>
+   
+</head> 
+<body>
+
+    <p id="print_mymsg_id"></p>
+    <p id="print_greeting_id"></p>
+    <input id="send-input" type="text" /> 
+    <button id="send-button"></button> 
+    <button id="record-button"></button> 
+
+    <script src="jquery.js"></script> 
+    <script> 
+        $("#send-button").click(function(event) { 
+            let message = {
+                data: $("#send-input").val() + " "
+            }
+            $.post("http://127.0.0.1:5000/predict", JSON.stringify(message), function after_receive(response){
+                $("#print_mymsg_id").text(response.my_msg);
+                $("#print_greeting_id").text(response.prediction);
+            });
+        }); 
+        
+        $("#record-button").click(function(event) { 
+            let message = {
+                data: ""
+            }
+            $.post("http://127.0.0.1:5000/predict", JSON.stringify(message), function after_receive(response){
+                $("#print_mymsg_id").text(response.my_msg);
+                $("#print_greeting_id").text(response.prediction);
+            });
+        }); 
+        
+    </script>
+    
+    
+</body>
+</html>
