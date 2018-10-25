@@ -20,6 +20,7 @@ Note: predict.html, jquery.js, Mic.png, background.jpg, send-button3.jpg SHOULD 
 - favicon.ico is favicon for webpage
 
 
+![jess-ss1](https://user-images.githubusercontent.com/37634919/47494172-ade0e780-d86e-11e8-849b-6568756812fd.png)
 
 ![jess-ss2](https://user-images.githubusercontent.com/37634919/47494002-4d51aa80-d86e-11e8-86b0-be0d865b43db.png)
 
