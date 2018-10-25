@@ -18,3 +18,9 @@ Note: predict.html, jquery.js, Mic.png, background.jpg, send-button3.jpg SHOULD 
 - question.txt and answer.txt are the questions and answers used for training Jessica.
 - chime.wav and chime_short.wav are two wav files used for better interactivity
 - favicon.ico is favicon for webpage
+
+
+
+![jess-ss2](https://user-images.githubusercontent.com/37634919/47494002-4d51aa80-d86e-11e8-86b0-be0d865b43db.png)
+
+![jess-ss3](https://user-images.githubusercontent.com/37634919/47494003-4dea4100-d86e-11e8-84d8-e6af8e54d4a8.png)
