@@ -1,6 +1,6 @@
 # Jessica---A-Virtual-Assistant
-A virtual Assistant and Chatting application, Jessica.
-It is Web Based application. We Can chat with Virtual Assistant or give orders to do something.
+A Virtual Assistant and Chatting application, Jessica.
+It is Web Based application. We Can chat with her and give orders.
 
 # Some Cool Features:
 Its just like cortona, but have different answering personality which makes her look more human and more woman.
